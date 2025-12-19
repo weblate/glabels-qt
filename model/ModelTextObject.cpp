@@ -24,11 +24,11 @@
 #include "Size.h"
 
 #include <QBrush>
+#include <QDebug>
 #include <QPen>
 #include <QTextDocument>
 #include <QTextBlock>
 #include <QRegularExpression>
-#include <QtDebug>
 
 
 namespace glabels
@@ -716,6 +716,11 @@ namespace glabels
 			font.setWeight( mFontWeight );
 			font.setItalic( mFontItalicFlag );
 			font.setUnderline( mFontUnderlineFlag );
+
+			qDebug() << "font family:" << QFontInfo(font).family()
+			         << "metrics h/ascent:" << QFontMetrics(font).height() << QFontMetrics(font).ascent()
+			         << "device dpi:" << painter->device()->logicalDpiX() << painter->device()->logicalDpiY()
+			         << "devicePixelRatio:" << painter->device()->devicePixelRatioF();
 
 			QTextOption textOption;
 			textOption.setAlignment( mTextHAlign );
