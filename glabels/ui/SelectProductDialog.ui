@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>SelectProductDialog</class>
  <widget class="QDialog" name="SelectProductDialog">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -20,6 +23,9 @@
    <string>gLabels - Select Product</string>
   </property>
   <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <property name="modal">
    <bool>true</bool>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_6">
@@ -478,7 +484,8 @@
         <string/>
        </property>
        <property name="icon">
-        <iconset theme="glabels-view-grid"/>
+        <iconset theme="glabels-view-grid">
+         <normaloff>.</normaloff>.</iconset>
        </property>
        <property name="iconSize">
         <size>
