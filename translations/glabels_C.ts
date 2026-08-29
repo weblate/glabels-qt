@@ -272,6 +272,33 @@
     </message>
 </context>
 <context>
+    <name>GenericTemplate</name>
+    <message>
+        <source>Generic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 full-page labels</source>
+        <extracomment>%1 = page size. (e.g. A4)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 envelope</source>
+        <extracomment>%1 = envelope size. (e.g. DL)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 half-page labels</source>
+        <extracomment>%1 = page size. (e.g. A4)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 quarter-page labels</source>
+        <extracomment>%1 = page size. (e.g. A4)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>MergeView</name>
     <message>
         <source>Source</source>
@@ -496,10 +523,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Select locale specific behavior.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Units</source>
         <translation type="unfinished"></translation>
     </message>
@@ -528,10 +551,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Configure grid behavior.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Origin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -549,6 +568,82 @@
     </message>
     <message>
         <source>Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Appearance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Light</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dark</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Color scheme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use a light appearance for user interface.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use a dark appearance for user interface.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Automatically adjust appearance based on system color scheme.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Startup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Home</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Documents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Browse...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Inherit current working directory from parent process.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Startup in user&apos;s home directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Startup in user&apos;s docments directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User defined startup directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Parent working directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Other:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1543,10 +1638,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Preferences</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Configure the application</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1924,6 +2015,10 @@
         <source>Center objects in label</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Preferences...</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>glabels::MergeView</name>
@@ -2104,6 +2199,13 @@
     </message>
     <message>
         <source>Use substitution field</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>glabels::PreferencesDialog</name>
+    <message>
+        <source>Select startup directory</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

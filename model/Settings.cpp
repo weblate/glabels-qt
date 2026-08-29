@@ -130,7 +130,7 @@ namespace glabels::model
         {
                 // Guess at a suitable default
                 bool defaultValue;
-                switch (QLocale::system().country())
+                switch (QLocale::system().territory())
                 {
                 case QLocale::UnitedStates:
                 case QLocale::Canada:
@@ -164,7 +164,7 @@ namespace glabels::model
         {
                 // Guess at a suitable default
                 bool defaultValue;
-                switch (QLocale::system().country())
+                switch (QLocale::system().territory())
                 {
                 case QLocale::UnitedStates:
                 case QLocale::Canada:
@@ -450,5 +450,60 @@ namespace glabels::model
                 emit mInstance->changed();
         }
 
+
+        Settings::ColorScheme Settings::colorScheme()
+        {
+                mInstance->beginGroup( "Appearance" );
+                QString value = mInstance->value( "colorScheme", "light" ).toString();
+                mInstance->endGroup();
+
+                if ( value == "light" ) return LIGHT_COLOR_SCHEME;
+                if ( value == "dark" ) return DARK_COLOR_SCHEME;
+                if ( value == "system" ) return SYSTEM_COLOR_SCHEME;
+                return LIGHT_COLOR_SCHEME;
+        }
+
+
+        void Settings::setColorScheme( ColorScheme mode )
+        {
+
+                mInstance->beginGroup( "Appearance" );
+                switch ( mode )
+                {
+                case LIGHT_COLOR_SCHEME:
+                        mInstance->setValue( "colorScheme", "light" );
+                        break;
+                case DARK_COLOR_SCHEME:
+                        mInstance->setValue( "colorScheme", "dark" );
+                        break;
+                case SYSTEM_COLOR_SCHEME:
+                        mInstance->setValue( "colorScheme", "system" );
+                        break;
+                default:
+                        mInstance->setValue( "colorScheme", "light" );
+                        break;
+                }
+                mInstance->endGroup();
+
+                emit mInstance->changed();
+        }
+
+
+        QString Settings::startupPath()
+        {
+                mInstance->beginGroup( "Startup" );
+                QString path = mInstance->value( "path", QString("") ).toString();
+                mInstance->endGroup();
+
+                return path;
+        }
+
+
+        void Settings::setStartupPath( const QString& path )
+        {
+                mInstance->beginGroup( "Startup" );
+                mInstance->setValue( "path", path );
+                mInstance->endGroup();
+        }
 
 }

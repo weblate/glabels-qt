@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="it">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="it">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -7,15 +9,15 @@
     </message>
     <message>
         <source>&amp;License</source>
-        <translation>Licenza</translation>
+        <translation>&amp;Licenza</translation>
     </message>
     <message>
         <source>&amp;Website</source>
-        <translation>Sito web</translation>
+        <translation>&amp;Sito web</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>Chiudi</translation>
+        <translation>&amp;Chiudi</translation>
     </message>
 </context>
 <context>
@@ -519,31 +521,31 @@
     </message>
     <message>
         <source>Grid</source>
-        <translation type="unfinished"/>
+        <translation>Griglia</translation>
     </message>
     <message>
         <source>Configure grid behavior.</source>
-        <translation type="unfinished"/>
+        <translation>Configura il comportamento della griglia.</translation>
     </message>
     <message>
         <source>Origin</source>
-        <translation type="unfinished"/>
+        <translation>Origine</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation type="unfinished"/>
+        <translation>Centro</translation>
     </message>
     <message>
         <source>Spacing</source>
-        <translation type="unfinished"/>
+        <translation>Spaziatura</translation>
     </message>
     <message>
         <source>Top left corner</source>
-        <translation type="unfinished"/>
+        <translation>Angolo in alto a sinistra</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation type="unfinished"/>
+        <translation>Ripristino</translation>
     </message>
 </context>
 <context>
@@ -622,15 +624,15 @@
     </message>
     <message>
         <source>Destination</source>
-        <translation type="unfinished"/>
+        <translation>Destinazione</translation>
     </message>
     <message>
         <source>Print</source>
-        <translation type="unfinished"/>
+        <translation>Stampa</translation>
     </message>
     <message>
         <source>Use system print dialog...</source>
-        <translation type="unfinished"/>
+        <translation>Usa la finestra di stampa di sistema...</translation>
     </message>
 </context>
 <context>
@@ -701,7 +703,7 @@
     </message>
     <message>
         <source>Select another product for this gLabels project.</source>
-        <translation type="unfinished"/>
+        <translation>Seleziona un altro prodotto per questo progetto gLabels.</translation>
     </message>
 </context>
 <context>
@@ -807,7 +809,7 @@
     </message>
     <message>
         <source>Label size:</source>
-        <translation type="unfinished"/>
+        <translation>Dimensione dell’etichetta:</translation>
     </message>
     <message>
         <source>Layout:</source>
@@ -891,7 +893,7 @@
     <name>TemplateDesignerContinuousPage</name>
     <message>
         <source>Click &quot;Cancel&quot; to quit, or click &quot;Back&quot; to begin with a different product.</source>
-        <translation type="unfinished"/>
+        <translation>Fai clic su &quot;Annulla&quot; per uscire, oppure su &quot;Indietro&quot; per iniziare con un prodotto diverso.</translation>
     </message>
 </context>
 <context>
@@ -933,7 +935,7 @@
     </message>
     <message>
         <source>This dialog will help you create a custom product template. Let&apos;s get started:</source>
-        <translation type="unfinished"/>
+        <translation>Questa finestra di dialogo ti aiuterà a creare un modello di prodotto personalizzato. Iniziamo:</translation>
     </message>
 </context>
 <context>
@@ -1044,7 +1046,7 @@
     <name>TemplateDesignerPathPage</name>
     <message>
         <source>Click &quot;Cancel&quot; to quit, or click &quot;Back&quot; to begin with a different product.</source>
-        <translation type="unfinished"/>
+        <translation>Clicca su &quot;Annulla&quot; per uscire, oppure su &quot;Indietro&quot; per iniziare con un prodotto diverso.</translation>
     </message>
 </context>
 <context>
@@ -1221,15 +1223,15 @@
     </message>
     <message>
         <source>Add variable</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi variabile</translation>
     </message>
     <message>
         <source>Edit selected variable</source>
-        <translation type="unfinished"/>
+        <translation>Modifica la variabile selezionata</translation>
     </message>
     <message>
         <source>Delete selected variable</source>
-        <translation type="unfinished"/>
+        <translation>Elimina la variabile selezionata</translation>
     </message>
 </context>
 <context>
@@ -1355,7 +1357,7 @@
     </message>
     <message>
         <source>Drop</source>
-        <translation type="unfinished"/>
+        <translation>Rilascia</translation>
     </message>
 </context>
 <context>
@@ -2121,19 +2123,19 @@
     </message>
     <message>
         <source>Print to file (PDF)</source>
-        <translation type="unfinished"/>
+        <translation>Stampa su file (PDF)</translation>
     </message>
     <message>
         <source>PDF files (*.pdf);;All files (*)</source>
-        <translation type="unfinished"/>
+        <translation>File PDF (*.pdf);;Tutti i file (*)</translation>
     </message>
     <message>
         <source>%1 already exists.</source>
-        <translation type="unfinished"/>
+        <translation>%1 esiste già.</translation>
     </message>
     <message>
         <source>Do you want to overwrite it?</source>
-        <translation type="unfinished"/>
+        <translation>Vuoi sovrascriverlo?</translation>
     </message>
 </context>
 <context>
@@ -2375,7 +2377,7 @@
     </message>
     <message>
         <source>Please enter parameters for your two layouts.</source>
-        <translation>Inserisci i parametri per i tuoi due layout. </translation>
+        <translation>Inserisci i parametri per i tuoi due layout.&#xa0;</translation>
     </message>
 </context>
 <context>
@@ -2605,7 +2607,7 @@
     </message>
     <message>
         <source>DAFT Code</source>
-        <translation>Codice DAFT </translation>
+        <translation>Codice DAFT</translation>
     </message>
     <message>
         <source>Data Matrix</source>
@@ -2721,123 +2723,123 @@
     </message>
     <message>
         <source>Aztec Runes</source>
-        <translation type="unfinished"/>
+        <translation>Rune azteche</translation>
     </message>
     <message>
         <source>CEPNet (Brazilian Post)</source>
-        <translation type="unfinished"/>
+        <translation>CEPNet (Posta Brasiliana)</translation>
     </message>
     <message>
         <source>Codablock-F</source>
-        <translation type="unfinished"/>
+        <translation>Codablock-F</translation>
     </message>
     <message>
         <source>Code 2 of 5 Standard</source>
-        <translation type="unfinished"/>
+        <translation>Code 2 of 5 Standard</translation>
     </message>
     <message>
         <source>GS1 DataBar Stacked</source>
-        <translation type="unfinished"/>
+        <translation>GS1 DataBar Impilato</translation>
     </message>
     <message>
         <source>GS1 DataBar Stacked Omni.</source>
-        <translation type="unfinished"/>
+        <translation>GS1 DataBar Impilato Omni.</translation>
     </message>
     <message>
         <source>GS1 DataBar Expanded Stacked</source>
-        <translation type="unfinished"/>
+        <translation>GS1 DataBar Espanso Impilato</translation>
     </message>
     <message>
         <source>HIBC MicroPDF417</source>
-        <translation type="unfinished"/>
+        <translation>HIBC MicroPDF417</translation>
     </message>
     <message>
         <source>MicroPDF417</source>
-        <translation type="unfinished"/>
+        <translation>MicroPDF417</translation>
     </message>
     <message>
         <source>NVE-18 (SSCC-18)</source>
-        <translation type="unfinished"/>
+        <translation>NVE-18 (SSCC-18)</translation>
     </message>
     <message>
         <source>PDF417 Compact</source>
-        <translation type="unfinished"/>
+        <translation>PDF417 Compact</translation>
     </message>
     <message>
         <source>Pharmazentralnummer (PZN)</source>
-        <translation type="unfinished"/>
+        <translation>Numero centrale farmaceutico (PZN)</translation>
     </message>
     <message>
         <source>Channel Code</source>
-        <translation type="unfinished"/>
+        <translation>Codice canale</translation>
     </message>
     <message>
         <source>Code 2 of 5 Industrial</source>
-        <translation type="unfinished"/>
+        <translation>Code 2 of 5 Industrial</translation>
     </message>
     <message>
         <source>DotCode</source>
-        <translation type="unfinished"/>
+        <translation>DotCode</translation>
     </message>
     <message>
         <source>EAN-14</source>
-        <translation type="unfinished"/>
+        <translation>EAN-14</translation>
     </message>
     <message>
         <source>GS1 DataBar Omnidirectional</source>
-        <translation type="unfinished"/>
+        <translation>GS1 DataBar Omnidirezionale</translation>
     </message>
     <message>
         <source>Han Xin</source>
-        <translation type="unfinished"/>
+        <translation>Han Xin</translation>
     </message>
     <message>
         <source>Flattermarken</source>
-        <translation type="unfinished"/>
+        <translation>Etichette irregolari</translation>
     </message>
     <message>
         <source>DPD Code</source>
-        <translation type="unfinished"/>
+        <translation>Codice DPD</translation>
     </message>
     <message>
         <source>POSTNET</source>
-        <translation type="unfinished"/>
+        <translation>POSTNET</translation>
     </message>
     <message>
         <source>Royal Mail 4-State Mailmark</source>
-        <translation type="unfinished"/>
+        <translation>Royal Mail Mailmark a 4 stati</translation>
     </message>
     <message>
         <source>UPU S10</source>
-        <translation type="unfinished"/>
+        <translation>UPU S10</translation>
     </message>
     <message>
         <source>FIM (Facing ID Mark)</source>
-        <translation type="unfinished"/>
+        <translation>FIM (Marcatura di orientamento)</translation>
     </message>
     <message>
         <source>rMQR (Rectangular Micro QR)</source>
-        <translation type="unfinished"/>
+        <translation>rMQR (Micro QR Rettangolare)</translation>
     </message>
     <message>
         <source>Royal Mail 4-State Customer</source>
-        <translation type="unfinished"/>
+        <translation>Royal Mail 4-State Customer</translation>
     </message>
     <message>
         <source>VIN (Vehicle ID Number)</source>
-        <translation type="unfinished"/>
+        <translation>VIN (Numero di identificazione del veicolo)</translation>
     </message>
     <message>
         <source>HIBC Codablock-F</source>
-        <translation type="unfinished"/>
+        <translation>HIBC Codablock-F</translation>
     </message>
     <message>
         <source>Royal Mail 2-D Mailmark</source>
-        <translation type="unfinished"/>
+        <translation>Royal Mail 2-D Mailmark</translation>
     </message>
     <message>
         <source>BC412 (SEMI TI-95)</source>
-        <translation type="unfinished"/>
+        <translation>BC412 (SEMI TI-95)</translation>
     </message>
 </context>
 <context>

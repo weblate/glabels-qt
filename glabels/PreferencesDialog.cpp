@@ -21,7 +21,12 @@
 
 #include "PreferencesDialog.hpp"
 
+#include "AppearanceModel.hpp"
+
 #include "model/Settings.hpp"
+
+#include <QFileDialog>
+#include <QStandardPaths>
 
 
 namespace glabels
@@ -79,6 +84,58 @@ namespace glabels
                 gridSpacingSpin->setMinimum( units.resolution() );
                 gridSpacingSpin->setSuffix( " " + units.toIdString() );
                 gridSpacingSpin->setValue( gridSpacing.inUnits( units ) );
+
+
+                appearanceSystemRadio->setVisible( AppearanceModel::supportsSystemColorScheme() );
+
+
+                switch ( model::Settings::colorScheme() )
+                {
+                case model::Settings::LIGHT_COLOR_SCHEME:
+                        appearanceLightRadio->setChecked( true );
+                        break;
+                case model::Settings::DARK_COLOR_SCHEME:
+                        appearanceDarkRadio->setChecked( true );
+                        break;
+#if QT_VERSION >= QT_VERSION_CHECK(6,8,0)
+                case model::Settings::SYSTEM_COLOR_SCHEME:
+                        appearanceSystemRadio->setChecked( true );
+                        break;
+#endif
+                default:
+                        appearanceLightRadio->setChecked( true );
+                        break;
+                }
+
+
+                auto path = model::Settings::startupPath();
+                if ( path.isEmpty() )
+                {
+                        startupParentRadio->setChecked( true );
+                }
+                else if ( path == QStandardPaths::writableLocation( QStandardPaths::HomeLocation ) )
+                {
+                        startupHomeRadio->setChecked( true );
+                }
+                else if ( path == QStandardPaths::writableLocation( QStandardPaths::DocumentsLocation ) )
+                {
+                        startupDocumentsRadio->setChecked( true );
+                }
+                else
+                {
+                        startupOtherRadio->setChecked( true );
+                }
+
+                if ( path.isEmpty() )
+                {
+                        // Start with ${HOME} when browsing for user-defined startup location
+                        startupOtherLineEdit->setText( QStandardPaths::writableLocation( QStandardPaths::HomeLocation ) );
+                }
+                else
+                {
+                        // Otherwise, start from previously set startup path
+                        startupOtherLineEdit->setText( path );
+                }
 
 
                 connect( model::Settings::instance(), SIGNAL(changed()),
@@ -149,6 +206,83 @@ namespace glabels
         void PreferencesDialog::onGridSpacingResetButtonClicked()
         {
                 model::Settings::resetGridSpacing();
+        }
+
+
+        ///
+        /// Appearance Mode Radios Changed
+        ///
+        void PreferencesDialog::onAppearanceModeRadiosChanged()
+        {
+                if ( appearanceLightRadio->isChecked() )
+                {
+                        model::Settings::setColorScheme( model::Settings::LIGHT_COLOR_SCHEME );
+                }
+                else if ( appearanceDarkRadio->isChecked() )
+                {
+                        model::Settings::setColorScheme( model::Settings::DARK_COLOR_SCHEME );
+                }
+#if QT_VERSION >= QT_VERSION_CHECK(6,8,0)
+                else if ( appearanceSystemRadio->isChecked() )
+                {
+                        model::Settings::setColorScheme( model::Settings::SYSTEM_COLOR_SCHEME );
+                }
+#endif
+        }
+
+
+        ///
+        /// Startup Location Radios Changed
+        ///
+        void PreferencesDialog::onStartupLocationRadiosChanged()
+        {
+                QString path;
+
+                if ( startupParentRadio->isChecked() )
+                {
+                        path = "";
+                }
+                else if ( startupHomeRadio->isChecked() )
+                {
+                        path = QStandardPaths::writableLocation( QStandardPaths::HomeLocation );
+                }
+                else if ( startupDocumentsRadio->isChecked() )
+                {
+                        path = QStandardPaths::writableLocation( QStandardPaths::DocumentsLocation );
+                }
+                else if ( startupOtherRadio->isChecked() )
+                {
+                        path = startupOtherLineEdit->text();
+                }
+                else
+                {
+                        qWarning() << "No startup location selected.  Should not happen!";
+                        return;
+                }
+
+                model::Settings::setStartupPath( path );
+                if ( !path.isEmpty() )
+                {
+                        QDir::setCurrent( path );
+                }
+        }
+
+
+        ///
+        /// Startup Location Radios Changed
+        ///
+        void PreferencesDialog::onStartupOtherBrowseButtonClicked()
+        {
+                auto path = QFileDialog::getExistingDirectory( this,
+                                                               tr("Select startup directory"),
+                                                               startupOtherLineEdit->text(),
+                                                               QFileDialog::ShowDirsOnly );
+                if ( !path.isEmpty() )
+                {
+                        startupOtherLineEdit->setText( path );
+                        model::Settings::setStartupPath( path );
+                        QDir::setCurrent( path );
+                }
         }
 
 
