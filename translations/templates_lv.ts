@@ -17,11 +17,11 @@
     </message>
     <message>
         <source>Arch file inserts</source>
-        <translation type="unfinished"></translation>
+        <translation>Arhīva mapju ieliktņi</translation>
     </message>
     <message>
         <source>Arch file labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Arhīva mapju etiķetes</translation>
     </message>
     <message>
         <source>Barcode labels</source>
@@ -41,23 +41,23 @@
     </message>
     <message>
         <source>CD/DVD booklet</source>
-        <translation type="unfinished"></translation>
+        <translation>CD/DVD buklets</translation>
     </message>
     <message>
         <source>CD/DVD case (rightside up)</source>
-        <translation type="unfinished"></translation>
+        <translation>CD/DVD futrālis (pareizā pusē uz augšu)</translation>
     </message>
     <message>
         <source>CD/DVD case (upside down)</source>
-        <translation type="unfinished"></translation>
+        <translation>CD/DVD futrālis (otrādi)</translation>
     </message>
     <message>
         <source>CD/DVD case booklet</source>
-        <translation type="unfinished"></translation>
+        <translation>CD/DVD futrāļa buklets</translation>
     </message>
     <message>
         <source>CD/DVD case labels</source>
-        <translation type="unfinished"></translation>
+        <translation>CD/DVD futrāļa etiķetes</translation>
     </message>
     <message>
         <source>CD/DVD center hub labels</source>
@@ -69,19 +69,19 @@
     </message>
     <message>
         <source>CD/DVD labels (disc labels)</source>
-        <translation type="unfinished"></translation>
+        <translation>CD/DVD etiķetes (diska etiķetes)</translation>
     </message>
     <message>
         <source>CD/DVD labels (disc only)</source>
-        <translation type="unfinished"></translation>
+        <translation>CD/DVD etiķetes (tikai disks)</translation>
     </message>
     <message>
         <source>CD/DVD labels (rectangles)</source>
-        <translation type="unfinished"></translation>
+        <translation>CD/DVD etiķetes (taisnstūri)</translation>
     </message>
     <message>
         <source>CD/DVD labels (spine only)</source>
-        <translation type="unfinished"></translation>
+        <translation>CD/DVD etiķetes (tikai mugura)</translation>
     </message>
     <message>
         <source>CD/DVD or other media</source>
@@ -89,15 +89,15 @@
     </message>
     <message>
         <source>CD/DVD tray</source>
-        <translation type="unfinished"></translation>
+        <translation>CD/DVD paliktnis</translation>
     </message>
     <message>
         <source>Candy labels</source>
-        <translation>Sveču etiķetes</translation>
+        <translation>Konfekšu etiķetes</translation>
     </message>
     <message>
         <source>Cassette labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasešu etiķetes</translation>
     </message>
     <message>
         <source>Coffee and tea labels</source>
@@ -105,11 +105,11 @@
     </message>
     <message>
         <source>Correction labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Labošanas etiķetes</translation>
     </message>
     <message>
         <source>DLT labels</source>
-        <translation type="unfinished"></translation>
+        <translation>DLT etiķetes</translation>
     </message>
     <message>
         <source>Digital media labels</source>
@@ -157,23 +157,23 @@
     </message>
     <message>
         <source>Full-page labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilnas lapas etiķetes</translation>
     </message>
     <message>
         <source>Full-page labels with back slit</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilnas lapas etiķetes ar griezumu aizmugurē</translation>
     </message>
     <message>
         <source>Greeting cards</source>
-        <translation>Apsveikuma kartiņa</translation>
+        <translation>Apsveikuma kartiņas</translation>
     </message>
     <message>
         <source>Hanging folder labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Piekaramo mapju etiķetes</translation>
     </message>
     <message>
         <source>ID labels</source>
-        <translation type="unfinished"></translation>
+        <translation>ID etiķetes</translation>
     </message>
     <message>
         <source>Labels</source>
@@ -181,15 +181,15 @@
     </message>
     <message>
         <source>Large address labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Lielas adrešu etiķetes</translation>
     </message>
     <message>
         <source>Lever arch file labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Sviras arhīva mapju etiķetes</translation>
     </message>
     <message>
         <source>Magnet stickers</source>
-        <translation type="unfinished"></translation>
+        <translation>Magnētiskās uzlīmes</translation>
     </message>
     <message>
         <source>Mailing labels</source>
@@ -213,31 +213,31 @@
     </message>
     <message>
         <source>Mini CD/DVD labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Mini CD/DVD etiķetes</translation>
     </message>
     <message>
         <source>Mini Disc labels</source>
-        <translation>Mini Disk etiķetes</translation>
+        <translation>MiniDisc etiķetes</translation>
     </message>
     <message>
         <source>Mini address labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Mini adrešu etiķetes</translation>
     </message>
     <message>
         <source>Mini labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Mini etiķetes</translation>
     </message>
     <message>
         <source>Multipurpose labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Daudzfunkcionālas etiķetes</translation>
     </message>
     <message>
         <source>Name badge labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Vārda nozīmīšu etiķetes</translation>
     </message>
     <message>
         <source>Name badges</source>
-        <translation type="unfinished"></translation>
+        <translation>Vārda nozīmītes</translation>
     </message>
     <message>
         <source>Name plates</source>
@@ -309,15 +309,15 @@
     </message>
     <message>
         <source>Video labels (face only)</source>
-        <translation type="unfinished"></translation>
+        <translation>Video etiķetes (tikai priekšpuse)</translation>
     </message>
     <message>
         <source>Video tape face labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Videokasešu priekšpuses etiķetes</translation>
     </message>
     <message>
         <source>Video tape spine labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Videokasešu muguras etiķetes</translation>
     </message>
     <message>
         <source>Zip disc labels</source>
@@ -325,71 +325,71 @@
     </message>
     <message>
         <source>Bookplate labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekslibru etiķetes</translation>
     </message>
     <message>
         <source>Bottle/jar labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Pudeļu/burku etiķetes</translation>
     </message>
     <message>
         <source>Candle labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Sveču etiķetes</translation>
     </message>
     <message>
         <source>Classification labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Klasifikācijas etiķetes</translation>
     </message>
     <message>
         <source>File labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapju etiķetes</translation>
     </message>
     <message>
         <source>VHS face labels</source>
-        <translation type="unfinished"></translation>
+        <translation>VHS priekšpuses etiķetes</translation>
     </message>
     <message>
         <source>VHS labels</source>
-        <translation type="unfinished"></translation>
+        <translation>VHS etiķetes</translation>
     </message>
     <message>
         <source>Large arch file labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Lielas arhīva mapju etiķetes</translation>
     </message>
     <message>
         <source>Tube labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Stobriņu etiķetes</translation>
     </message>
     <message>
         <source>CD/DVD insert</source>
-        <translation type="unfinished"></translation>
+        <translation>CD/DVD ieliktnis</translation>
     </message>
     <message>
         <source>CD/DVD insert (back)</source>
-        <translation type="unfinished"></translation>
+        <translation>CD/DVD ieliktnis (aizmugure)</translation>
     </message>
     <message>
         <source>CD/DVD insert (front)</source>
-        <translation type="unfinished"></translation>
+        <translation>CD/DVD ieliktnis (priekšpuse)</translation>
     </message>
     <message>
         <source>CD/DVD labels (spine labels)</source>
-        <translation type="unfinished"></translation>
+        <translation>CD/DVD etiķetes (muguras etiķetes)</translation>
     </message>
     <message>
         <source>DVD insert</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD ieliktnis</translation>
     </message>
     <message>
         <source>Divider labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Atdalītāju etiķetes</translation>
     </message>
     <message>
         <source>Index cards</source>
-        <translation type="unfinished"></translation>
+        <translation>Kartotēkas kartītes</translation>
     </message>
     <message>
         <source>Large round labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Lielas apaļas etiķetes</translation>
     </message>
     <message>
         <source>Post cards</source>
@@ -397,39 +397,39 @@
     </message>
     <message>
         <source>Tent cards</source>
-        <translation type="unfinished"></translation>
+        <translation>Saliekamās galda kartītes</translation>
     </message>
     <message>
         <source>VHS insert</source>
-        <translation type="unfinished"></translation>
+        <translation>VHS ieliktnis</translation>
     </message>
     <message>
         <source>VHS-C insert</source>
-        <translation type="unfinished"></translation>
+        <translation>VHS-C ieliktnis</translation>
     </message>
     <message>
         <source>Video-8 insert</source>
-        <translation type="unfinished"></translation>
+        <translation>Video-8 ieliktnis</translation>
     </message>
     <message>
         <source>Window stickers</source>
-        <translation type="unfinished"></translation>
+        <translation>Logu uzlīmes</translation>
     </message>
     <message>
         <source>Zip disc insert</source>
-        <translation type="unfinished"></translation>
+        <translation>Zip diska ieliktnis</translation>
     </message>
     <message>
         <source>Continuous label tape</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepārtraukta etiķešu lente</translation>
     </message>
     <message>
         <source>Postage stamp labels</source>
-        <translation type="unfinished"></translation>
+        <translation>Pastmarku etiķetes</translation>
     </message>
     <message>
         <source>CD/DVD spine labels</source>
-        <translation type="unfinished"></translation>
+        <translation>CD/DVD muguras etiķetes</translation>
     </message>
 </context>
 </TS>
