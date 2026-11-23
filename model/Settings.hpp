@@ -45,6 +45,8 @@ namespace glabels::model
         public:
                 enum PageSizeFamily { ISO, US, };
                 enum GridOrigin { ORIGIN_TL, ORIGIN_CENTER };
+                enum ColorScheme { LIGHT_COLOR_SCHEME, DARK_COLOR_SCHEME, SYSTEM_COLOR_SCHEME };
+                enum IconStyle { FLAT_ICON_STYLE, VECTOR_ICON_STYLE };
 
 
                 /////////////////////////////////
@@ -110,6 +112,15 @@ namespace glabels::model
                 static Distance gridSpacing();
                 static void setGridSpacing( Distance spacing );
                 static void resetGridSpacing();
+
+                static ColorScheme colorScheme();
+                static void setColorScheme( ColorScheme scheme );
+
+                static IconStyle iconStyle();
+                static void setIconStyle( IconStyle style );
+
+                static QString startupPath();
+                static void setStartupPath( const QString& path );
 
 
         private:

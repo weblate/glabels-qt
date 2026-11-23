@@ -86,7 +86,8 @@ namespace glabels
                 mContents->setIconSize( QSize(48,48) );
                 mContents->setSizePolicy( QSizePolicy::MinimumExpanding,
                                           QSizePolicy::Preferred );
-                mContents->setStyleSheet( "* { background: #CCCCCC }" );
+                mContents->setAutoFillBackground( true );
+                mContents->setBackgroundRole( QPalette::AlternateBase );
 
                 // Table of contents button group
                 auto group = new QButtonGroup( this );
@@ -398,7 +399,7 @@ namespace glabels
                 editUnSelectAllAction->setStatusTip( tr("Remove all selections") );
                 connect( editUnSelectAllAction, SIGNAL(triggered()), this, SLOT(editUnSelectAll()) );
 
-                editPreferencesAction = new QAction( tr("Preferences"), this );
+                editPreferencesAction = new QAction( tr("Preferences..."), this );
                 editPreferencesAction->setIcon( QIcon::fromTheme( "edit-preferences" ) );
                 editPreferencesAction->setShortcut( QKeySequence::Preferences );
                 editPreferencesAction->setStatusTip( tr("Configure the application") );
@@ -522,7 +523,7 @@ namespace glabels
                 connect( objectsAlignLeftAction, SIGNAL(triggered()), this, SLOT(objectsAlignLeft()) );
 
                 objectsAlignHCenterAction = new QAction( tr("Align Center"), this );
-                objectsAlignHCenterAction->setIcon( QIcon::fromTheme( "glabels-align-center" ) );
+                objectsAlignHCenterAction->setIcon( QIcon::fromTheme( "glabels-align-hcenter" ) );
                 objectsAlignHCenterAction->setStatusTip( tr("Align objects to horizontal centers") );
                 connect( objectsAlignHCenterAction, SIGNAL(triggered()), this, SLOT(objectsAlignHCenter()) );
 
